@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "vercel": "^34.2.5"
-  }
+  },
+  "name": "portfoilio-html-css",
+  "description": "Projeto para estudos em HTML e CSS",
+  "version": "1.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
