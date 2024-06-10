@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2f3a3b;
+    color: #edf7f8;
+    text-align: center;
+}
+
+body {
+    background-color: #d4dadb;
+    color: #2f3a3b;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #1b395f;
+}
+
+strong{
+    color:#1b395f;
+}
+
+a {
+    text-decoration: none;
+    color: #edf7f8;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
