@@ -67,56 +67,71 @@ a {
 
 .botoes-redes-sociais {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-items: center;
     justify-content: center;
-    padding: 12px 0 ;
-    transition: transform 0.3s ease; 
+    padding: 12px 0;
+    transition: transform 0.3s ease;
     gap: 53px;
 }
 
+.botoes-link-redes-sociais:hover {
+    transform: scale(1.2);
+}
+
+.botoes-link {
+    background-color: #496a94;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
 .botoes-link:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 .imagem-tela-home {
     border-radius: 50px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 .imagem-tela-home:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 .imagem-sobre-mim {
     border-radius: 50px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
     width: 400px;
     height: 400px;
 }
 
 .imagem-sobre-mim:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 .imagem-projetos {
     border-radius: 50px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
     width: 250px;
     height: 150px;
 }
 
 .imagem-projetos:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 .imagem-habilidades {
     border-radius: 50px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
     width: 600px;
     height: 500px;
 }
 
 .imagem-habilidades:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
