@@ -17,7 +17,6 @@ header {
 body {
     background-color: #d4dadb;
     color: #2f3a3b;
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -25,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 08%;
 }
 
 .apresentacao-conteudo {
@@ -134,4 +133,13 @@ a {
 
 .imagem-habilidades:hover {
     transform: scale(1.2);
+}
+
+.rodape{
+    color: #f9f9fa;
+    background-color: #2f3a3b;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 24px;
 }
