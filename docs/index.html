@@ -4,176 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../docs/public/assets/css/style.css" media="screen" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Portifólio</title>
+    <link href="../docs/public/assets/css/style.css" rel="stylesheet">
+    <title>Portfólio Pessoal</title>
+
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">TL Quality Test</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
-                    <a class="nav-item nav-link" href="../docs/public/assets/pages/core/sobre_mim.html">Sobre Mim</a>
-                    <a class="nav-item nav-link"
-                        href="../docs/public/assets/pages/core/habilidades.html">Habilidades</a>
-                    <a class="nav-item nav-link" href="../docs/public/assets/pages/core/contato.html">Contato</a>
-                </div>
-            </div>
+        <nav class="menu-principal">
+            <a href="index.html" class="menu-principal-links">Sobre</a>
+            <a href="#" class="menu-principal-links">Experiência</a>
+            <a href="#" class="menu-principal-links">Projetos</a>
+            <a href="../docs/public/assets/pages/core/contato.html" class="menu-principal-links">Contato</a>
         </nav>
     </header>
 
-    <main class="conteudo-principal">
-        <h1 class="conteudo-principal-titulo">Analista de Qualidade de Software</h1>
-        <p class="conteudo-principal-texto">Proficiente em desenvolver e executar planos de testes manuais e
-            automatizados, definir as melhores práticas
-            de testes e identificar riscos de qualidade de software.</p>
-        <section class="conteudo-cards-gerais">
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="../docs/public/assets/images/Testes.png"
-                        alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
-                            introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
-                        <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Acessar</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="../docs/public/assets/images/Programacao.png"
-                        alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title">Título do card</h5>
-                        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma
-                            introdução a um conteúdo adicional.</p>
-                        <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Acessar</a>
-                    </div>
-                </div>
+    <main>
+        <section class="sobre-mim">
+            <div class="item-sobre-mim">
+                <img src="../docs/public/assets/images/taynara.jpeg" alt="Minha Imagem" class="item-imagem-sobre-mim">
+                <h1 class="sobre-mim-titulo-principal">Taynara Luana</h1>
+                <h4 class="sobre-mim-subtitulo">Quality Assurance Engineer</h4>
+                <p class="sobre-mim-texto-base">Eu crio projetos de testes autoamtizados uitilizando frameworks
+                    openSource e tecnologias de mercado.</p>
+            </div>
+
+            <div class="item-sobre-mim-quem-sou">
+                <p>Estou na área de tecnologia a 12 anos, onde possuo especialização em ferramentas e técnicas de Testes
+                    de Software.
+                    Sou formada em Análise e Desenvolvimento de Sistemas, pós graduada em Engenharia de Software, com
+                    especialização em Docência no Ensino Superior
+                    e recentemente formada no Mestrado em Inovações Tecnológicas. <br><br>
+
+                    Trabalho como profissional de QA desde 2014 e sou particularmente apaixonada pela parte em que
+                    realizo automações de testes,
+                    uma área na qual continuamente venho aprimorando as minhas habilidades e alimentando meu
+                    conhecimento.<br><br>
+
+                    Possuo ampla experiência em testes automatizados de API REST, utilizando: mocha, chai, jestIo,
+                    nodeJs e JavaScript.
+                    Além de possuir proficiência em Selenium e Cypress. <br><br>
+
+                    Minha expertise se estende a testes de ambientes multicamadas, incluindo testes baseados em backend
+                    e messagerias em KAFKA.
+                    Atualmente, meu foco está em realizar projetos voltados para testes de mensagerias em Kafka,
+                    utilizando os frameworks passados anteirormente,
+                    bem como a implementação de testes de Carga para messagerias utilizando o K6.<br><br>
+                </p>
             </div>
         </section>
     </main>
 
+    <footer>
+        <div class="links-footer">
+            <p>Conecte-se comigo:</p>
+            <a href="#" target="_blank"> LinkedIn</a>
+            <a href="#" target="_blank"> GitHub</a>
+        </div>
+
+        <div class="mensagem-footer">
+            <p>Sinta-se a vontade para me contatar para discuir oportunidades de colaboração ou para trocar idéias
+                sobre o campo de Testes de Software</p>
+        </div>
+    </footer>
+
 </body>
-
-<footer class="bg-body-tertiary text-center">
-
-    <div class="container p-4">
-        <section class="mb-4">
-
-            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-instagram"></i></a>
-
-            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-linkedin-in"></i></a>
-
-            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-github"></i></a>
-        </section>
-
-        <section class="mb-4">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
-                harum corrupti dicta, aliquam sequi voluptate quas.
-            </p>
-        </section>
-
-        <section class="">
-
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <a class="text-body" href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <a class="text-body" href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <a class="text-body" href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <a class="text-body" href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a class="text-body" href="#!">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2020 Copyright:
-    </div>
-</footer>
 
 </html>
