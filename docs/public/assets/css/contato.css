@@ -1,0 +1,36 @@
+:root {
+    --cor-primaria-escura: #987070;
+    --cor-secundaria-clara: #ecd9eb;
+    --cor-terciaria-semi-escura: #C39898;
+    --cor-hover-menu: #373A40;
+    --cor-fundo-menu: #D8B5B5;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction:row;
+}
+
+.apresentacao-conteudo {
+    padding: 2rem;
+}
+
+.apresentacao-botoes {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.botoes-link {
+    color: var(--cor-hover-menu);
+    background-color: var(--cor-secundaria-clara);
+    text-decoration: none;
+    width: 100px;
+    border-radius: 20%;
+    text-align: center;
+}
+
+.botoes-link:hover {
+    background-color: var(--cor-hover-menu);
+    color: var(--cor-secundaria-clara);
+}

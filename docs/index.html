@@ -4,43 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../docs/public/assets/css/style.css" media="screen" />
-    <title>Portifólio</title>
+    <link href="../docs/public/assets/css/style.css" rel="stylesheet">
+    <title>Portfólio Pessoal</title>
+
 </head>
 
 <body>
-    <header class="cabecalho-principal">
+    <header>
         <nav class="menu-principal">
-            <a href="#" class="menu-principal-link">Home</a>
-            <a href="../docs/public/assets/pages/core/sobre_mim.html" class="menu-principal-link">Sobre mim</a>
-            <a href="../docs/public/assets/pages/core/projetos.html" class="menu-principal-link">Projetos</a>
-            <a href="../docs/public/assets/pages/core/habilidades.html" class="menu-principal-link">Habilidades</a>
-            <a href="../docs/public/assets/pages/core/contato.html" class="menu-principal-link">Contato</a>
+            <a href="index.html" class="menu-principal-links">Sobre</a>
+            <a href="#" class="menu-principal-links">Experiência</a>
+            <a href="#" class="menu-principal-links">Projetos</a>
+            <a href="../docs/public/assets/pages/core/contato.html" class="menu-principal-links">Contato</a>
         </nav>
     </header>
 
-    <main class="apresentacao">
-        <section class="apresentacao-conteudo">
-            <h1 class="apresentacao-conteudo-titulo">Bem-vindo(a) ao Meu Portfólio</h1>
-            <p class="apresentacao-conteudo-texto">Sou uma profissional da área de Tecnologia, especializada em ferramentas e técnicas de Testes de
-                Software.<br><br>
+    <main>
+        <section class="sobre-mim">
+            <div class="item-sobre-mim">
+                <img src="../docs/public/assets/images/taynara.jpeg" alt="Minha Imagem" class="item-imagem-sobre-mim">
+                <h1 class="sobre-mim-titulo-principal">Taynara Luana</h1>
+                <h4 class="sobre-mim-subtitulo">Quality Assurance Engineer</h4>
+                <p class="sobre-mim-texto-base">Eu crio projetos de testes autoamtizados uitilizando frameworks
+                    openSource e tecnologias de mercado.</p>
+            </div>
 
-                Possuo formação em Análise de Sistemas, pós-graduação em Engenharia de Software, especialização em
-                Ensino Superior e mestrado em Inovações Tecnológicas.<br><br>
+            <div class="item-sobre-mim-quem-sou">
+                <p>Estou na área de tecnologia a 12 anos, onde possuo especialização em ferramentas e técnicas de Testes
+                    de Software.
+                    Sou formada em Análise e Desenvolvimento de Sistemas, pós graduada em Engenharia de Software, com
+                    especialização em Docência no Ensino Superior
+                    e recentemente formada no Mestrado em Inovações Tecnológicas. <br><br>
 
-                Trabalho como profissional de QA desde 2014, com uma paixão especial por automação de testes, área na
-                qual continuamente aprimoro minhas habilidades.<br><br>
+                    Trabalho como profissional de QA desde 2014 e sou particularmente apaixonada pela parte em que
+                    realizo automações de testes,
+                    uma área na qual continuamente venho aprimorando as minhas habilidades e alimentando meu
+                    conhecimento.<br><br>
 
-                Aqui no meu portfólio, vou compartilhar tudo sobre testes de software e sobre os testes automatizados
-                que realizo, além dos projetos que estou iniciando no processo de desenvolvimento de software. <br><br>
-                Fique à vontade para explorar e conhecer mais sobre o meu trabalho.</p>
+                    Possuo ampla experiência em testes automatizados de API REST, utilizando: mocha, chai, jestIo,
+                    nodeJs e JavaScript.
+                    Além de possuir proficiência em Selenium e Cypress. <br><br>
+
+                    Minha expertise se estende a testes de ambientes multicamadas, incluindo testes baseados em backend
+                    e messagerias em KAFKA.
+                    Atualmente, meu foco está em realizar projetos voltados para testes de mensagerias em Kafka,
+                    utilizando os frameworks passados anteirormente,
+                    bem como a implementação de testes de Carga para messagerias utilizando o K6.<br><br>
+                </p>
+            </div>
         </section>
-        <img src="../docs/public/assets/images/home.jpeg" class="imagem-tela-home">
     </main>
 
-    <footer class="rodape">
-        <p>Desenvolvido por Taynara.</p>
+    <footer>
+        <div class="links-footer">
+            <p>Conecte-se comigo:</p>
+            <a href="#" target="_blank"> LinkedIn</a>
+            <a href="#" target="_blank"> GitHub</a>
+        </div>
+
+        <div class="mensagem-footer">
+            <p>Sinta-se a vontade para me contatar para discuir oportunidades de colaboração ou para trocar idéias
+                sobre o campo de Testes de Software</p>
+        </div>
     </footer>
+
 </body>
 
 </html>

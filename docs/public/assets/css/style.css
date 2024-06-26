@@ -1,158 +1,87 @@
+:root {
+    --cor-primaria-escura: #987070;
+    --cor-secundaria-clara: #ecd9eb;
+    --cor-terciaria-semi-escura: #C39898;
+    --cor-hover-menu: #373A40;
+    --cor-fundo-menu: #D8B5B5;
+}
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
-
-body {
-    background-color: #d4dadb;
-    color: #2f3a3b;
-    box-sizing: border-box;
+body{
+    background-color: var(--cor-primaria-escura);
+    color:var(--cor-secundaria-clara);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
 }
 
-.cabecalho-principal{
-    padding: 2% 0 0 15%;
-}
-
-.menu-principal {
+.menu-principal{
     display: flex;
-    gap: 80px;
-
-}
-
-.menu-principal-link {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #1c676d;
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
-}
-
-.menu-principal-link:hover{
-    transform: scale(1.2);
-    color: #2f3a3b;
-}
-
-.apresentacao {
-    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 08%;
+    background-color: var(--cor-fundo-menu);
+    padding: 10px;
 }
 
-.apresentacao-conteudo {
-    width: 615px;
+.menu-principal-links{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--cor-primaria-escura);
+    margin: 0 1rem;
+}
+
+.menu-principal-links:hover{
+    color: var(--cor-hover-menu);
+}
+
+section{
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.sobre-mim{
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 2% 0 0 15%;
-}
-
-.apresentacao-conteudo-titulo {
-    font-size: 45px;
+    align-items: center;
     text-align: center;
-    color: #496a94;
 }
 
-.apresentacao-conteudo-texto {
-    font-size: 18px;
+.item-imagem-sobre-mim{
+    width: 300px;
+    border-radius: 40%;
+    box-shadow: #987070;
+}
+
+.item-sobre-mim{
+    padding: 1rem;
+}
+
+.item-sobre-mim-quem-sou{
+    padding: 2rem;
     text-align: justify;
-    color: #192a40;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-a {
+footer{
+    background-color: var(--cor-fundo-menu);
+    color: var(--cor-primaria-escura);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+}
+
+footer a{
+    color: var(--cor-hover-menu);
     text-decoration: none;
-    color: #edf7f8;
 }
 
-.apresentacao-botoes {
-    display: flex;
-    justify-content: space-between;
-}
-
-.conteudo-contato-titulo {
-    text-align: center;
-    font-family: 'Krona One', 'sans-serif';
-    font-weight: 400;
-    font-size: 24px;
-}
-
-.botoes-redes-sociais {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: center;
-    padding: 12px 0;
-    transition: transform 0.3s ease;
-    gap: 53px;
-}
-
-.botoes-link-redes-sociais:hover {
-    transform: scale(1.2);
-}
-
-.botoes-link {
-    background-color: #496a94;
-    color: #FFFFFF;
-    border: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
-.botoes-link:hover {
-    transform: scale(1.2);
-}
-
-.imagem-tela-home {
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-}
-
-.imagem-tela-home:hover {
-    transform: scale(1.2);
-}
-
-.imagem-sobre-mim {
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-    width: 400px;
-    height: 400px;
-}
-
-.imagem-sobre-mim:hover {
-    transform: scale(1.2);
-}
-
-.imagem-projetos {
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-    width: 250px;
-    height: 150px;
-}
-
-.imagem-projetos:hover {
-    transform: scale(1.2);
-}
-
-.imagem-habilidades {
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-    width: 600px;
-    height: 500px;
-}
-
-.imagem-habilidades:hover {
-    transform: scale(1.2);
-}
-
-.rodape {
-    color: #f9f9fa;
-    background-color: #2f3a3b;
-    padding: 24px;
-    text-align: center;
-    font-family: 'Monteserrat', sans-serif;
-    font-size: 24px;
+.links-footer, .mensagem-footer{
+    margin: 10px 0;
 }
