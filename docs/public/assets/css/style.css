@@ -1,158 +1,16 @@
+/* Estilos Globais */
 * {
     margin: 0;
     padding: 0;
-}
-
-
-body {
-    background-color: #d4dadb;
-    color: #2f3a3b;
     box-sizing: border-box;
 }
 
-.cabecalho-principal{
-    padding: 2% 0 0 15%;
-}
-
-.menu-principal {
-    display: flex;
-    gap: 80px;
-
-}
-
-.menu-principal-link {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    color: #1c676d;
-    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; 
-}
-
-.menu-principal-link:hover{
-    transform: scale(1.2);
-    color: #2f3a3b;
-}
-
-.apresentacao {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 08%;
-}
-
-.apresentacao-conteudo {
-    width: 615px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 2% 0 0 15%;
-}
-
-.apresentacao-conteudo-titulo {
-    font-size: 45px;
-    text-align: center;
-    color: #496a94;
-}
-
-.apresentacao-conteudo-texto {
-    font-size: 18px;
-    text-align: justify;
-    color: #192a40;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: #edf7f8;
-}
-
-.apresentacao-botoes {
-    display: flex;
-    justify-content: space-between;
-}
-
-.conteudo-contato-titulo {
-    text-align: center;
-    font-family: 'Krona One', 'sans-serif';
-    font-weight: 400;
-    font-size: 24px;
-}
-
-.botoes-redes-sociais {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: center;
-    padding: 12px 0;
-    transition: transform 0.3s ease;
-    gap: 53px;
-}
-
-.botoes-link-redes-sociais:hover {
-    transform: scale(1.2);
-}
-
-.botoes-link {
-    background-color: #496a94;
+.conteudo-principal{
+    background-color: #4A5D65;
     color: #FFFFFF;
-    border: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.botoes-link:hover {
-    transform: scale(1.2);
-}
-
-.imagem-tela-home {
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-}
-
-.imagem-tela-home:hover {
-    transform: scale(1.2);
-}
-
-.imagem-sobre-mim {
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-    width: 400px;
-    height: 400px;
-}
-
-.imagem-sobre-mim:hover {
-    transform: scale(1.2);
-}
-
-.imagem-projetos {
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-    width: 250px;
-    height: 150px;
-}
-
-.imagem-projetos:hover {
-    transform: scale(1.2);
-}
-
-.imagem-habilidades {
-    border-radius: 50px;
-    transition: transform 0.3s ease;
-    width: 600px;
-    height: 500px;
-}
-
-.imagem-habilidades:hover {
-    transform: scale(1.2);
-}
-
-.rodape {
-    color: #f9f9fa;
-    background-color: #2f3a3b;
-    padding: 24px;
+.conteudo-cards-gerais{
+    color: #4A5D65;
     text-align: center;
-    font-family: 'Monteserrat', sans-serif;
-    font-size: 24px;
 }
